@@ -13,6 +13,7 @@ Extended Kalman Filter (EKF) implementation
 Orientation estimation (roll, pitch, yaw)
 MicroSD logging (SPI / SDIO)
 Modular firmware structure (ready for integration into flight controllers)
+
 Hardware Architecture
 
 # System Archtitecture:
