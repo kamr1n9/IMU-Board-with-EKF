@@ -17,25 +17,23 @@ The system fuses sensor data from multiple IMUs to estimate orientation and moti
 # System Archtitecture:
 <img width="627" height="543" alt="image" src="https://github.com/user-attachments/assets/227cc384-2a96-45d6-9837-726f5f2b4109" />
 
-MCU: STM32F405RGT6
-IMUs: 2× SPI-connected IMUs
-Storage: MicroSD
+- MCU: STM32F405RGT6
+- IMUs: 2× SPI-connected IMUs
+- Storage: MicroSD
 Power:
-5V input (USB-C)
-Buck converter → 5V rail
-LDO → 3.3V sensor rail
-Interfaces:
-SPI (IMUs, SD)
-USB (debug / data)
-GPS (optional expansion)
-
-(Optional: Bild hier einfügen – dein Diagramm)
+- 5V input (USB-C)
+- Buck converter → 5V rail
+- LDO → 3.3V sensor rail
+- Interfaces:
+- SPI (IMUs, SD)
+- USB (debug / data)
+- GPS (optional expansion)
 
 # State Estimation (EKF)
 
 This project implements an Extended Kalman Filter (EKF) for sensor fusion.
 
 Inputs:
-Accelerometer data
-Gyroscope data
-Timestamp
+- Accelerometer data
+- Gyroscope data
+- Timestamp
