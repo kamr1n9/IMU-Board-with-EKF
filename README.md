@@ -20,7 +20,7 @@ The system fuses sensor data from multiple IMUs to estimate orientation and moti
 - MCU: STM32F405RGT6
 - IMUs: 2× SPI-connected IMUs
 - Storage: MicroSD
-- Power:5V input (USB-C)
+- Power: 5V input (USB-C)
 - Buck converter → 5V rail
 - LDO → 3.3V sensor rail
 - Interfaces:
