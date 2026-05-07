@@ -21,7 +21,7 @@ The system fuses sensor data from multiple IMUs to estimate orientation and moti
 - IMUs: 2× SPI-connected IMUs
 - Storage: MicroSD
 - Power: 5V input (USB-C)
-- Buck converter → 5V rail
+- Buck converter → 3.3V MCU rail
 - LDO → 3.3V sensor rail
 - Interfaces:
 - SPI (IMUs, SD)
