@@ -23,7 +23,7 @@ The system fuses sensor data from multiple IMUs to estimate orientation and moti
 - Power: 5V input (USB-C)
 - Buck converter → 3.3V MCU rail
 - LDO → 3.3V sensor rail
-- Interfaces:
+Interfaces:
 - SPI (IMUs, SD)
 - USB (debug / data)
 - GPS (optional expansion)
